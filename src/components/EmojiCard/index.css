@@ -1,0 +1,8 @@
+/* Write your code here. */
+.emoji-card {
+  background-color: #9796f0;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #ffffff30;
+  cursor: pointer
+}

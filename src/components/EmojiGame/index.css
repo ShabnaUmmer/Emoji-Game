@@ -1,0 +1,16 @@
+/* Write your code here. */
+.emoji-game-container {
+  background-image: linear-gradient( #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin: 40px;
+}

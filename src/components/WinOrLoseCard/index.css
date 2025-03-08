@@ -1,0 +1,35 @@
+/* Write your code here. */
+.result-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #9796f0;
+  margin: 40px;
+  padding: 40px;
+}
+.score-text {
+  color: #6a59ff;
+  font-size: 36px;
+  font-weight: bold;
+}
+.play-again-button {
+  background-color: #ffce27;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.result-text {
+  font-size: 58px;
+}
+.best-score {
+  font-size: 30px;
+}
+.score-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+}
