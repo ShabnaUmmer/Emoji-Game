@@ -30,7 +30,7 @@ class EmojiGame extends Component {
     const {emojisList} = this.props
     return emojisList.sort(() => Math.random() - 0.5)
   }
-  
+
   handleEmojiClick = id => {
     const {clickedEmojis, score, topScore} = this.state
     const {emojisList} = this.props
@@ -52,7 +52,7 @@ class EmojiGame extends Component {
       }
     }
   }
-  
+
   handlePlayAgain = () => {
     this.setState({
       score: 0,
@@ -61,10 +61,9 @@ class EmojiGame extends Component {
       result: '',
     })
   }
-  
+
   render() {
     const {score, topScore, gameOver, result} = this.state
-    const {emojisList} = this.props
 
     // Shuffle the emojis list
     const shuffledEmojis = this.shuffledEmojisList()
