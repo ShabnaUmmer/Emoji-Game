@@ -30,8 +30,10 @@ class EmojiGame extends Component {
     const {emojisList} = this.props
     return emojisList.sort(() => Math.random() - 0.5)
   }
+  
   handleEmojiClick = id => {
     const {clickedEmojis, score, topScore} = this.state
+    const {emojisList} = this.props
     if (clickedEmojis.includes(id)) {
       this.setState({gameOver: true, result: 'Lose'})
       if (score > topScore) {
@@ -42,7 +44,7 @@ class EmojiGame extends Component {
       const newScore = score + 1
       this.setState({gameOver: false, result: 'Won'})
       this.setState({clickedEmojis: updatedClickedEmojis, score: newScore})
-      if (newScore === this.props.emojisList.length) {
+      if (newScore === emojisList.length) {
         this.setState({gameOver: true, result: 'Won'})
         if (newScore > topScore) {
           this.setState({topScore: newScore})
@@ -50,6 +52,7 @@ class EmojiGame extends Component {
       }
     }
   }
+  
   handlePlayAgain = () => {
     this.setState({
       score: 0,
@@ -58,6 +61,7 @@ class EmojiGame extends Component {
       result: '',
     })
   }
+  
   render() {
     const {score, topScore, gameOver, result} = this.state
     const {emojisList} = this.props
