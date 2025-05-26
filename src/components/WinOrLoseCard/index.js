@@ -15,9 +15,15 @@ const WinOrLose = ({result, score, onPlayAgain}) => {
           <h1 className="result-text">
             {result === 'Won' ? 'You Won!' : 'You Lose'}
           </h1>
-          <p className="best-score">Best Score</p>
-          <p className="score-text">{score}/12</p>
-          <button className="play-again-button" onClick={onPlayAgain}>
+          <p className="best-score">
+            Best Score<span className="score-text">{score}/12</span>
+          </p>
+
+          <button
+            type="button"
+            className="play-again-button"
+            onClick={onPlayAgain}
+          >
             Play Again
           </button>
         </div>

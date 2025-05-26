@@ -2,12 +2,15 @@
 .result-card {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 20px;
   color: #ffffff;
   background-color: #9796f0;
   margin: 40px;
-  padding: 40px;
+  padding: 20px 30px;
+  border: 3px solid #ffffff30;
+  border-radius: 20px;
 }
 .score-text {
   color: #6a59ff;
@@ -19,17 +22,81 @@
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
+  font-size: 24px;
 }
 .result-text {
   font-size: 58px;
 }
 .best-score {
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.score-container{
+.score-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .result-card {
+    flex-direction: column; /* Stack vertically on mobile */
+    text-align: center;
+    padding: 20px;
+  }
+  .result-image {
+    order: 1;
+  }
+  .score-container {
+    order: 2;
+  }
+  .result-text {
+    font-size: 42px;
+  }
+
+  .best-score {
+    font-size: 24px;
+  }
+
+  .score-text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 576px) {
+  .result-card {
+    flex-direction: column; /* Stack vertically on mobile */
+    text-align: center;
+    padding: 20px;
+  }
+  .result-image {
+    order: 1;
+    width: 200px;
+    height: auto;
+    padding-bottom: 0;
+  }
+  .score-container {
+    order: 2;
+  }
+  .result-text {
+    font-size: 24px;
+  }
+
+  .best-score {
+    font-size: 15px;
+  }
+
+  .score-text {
+    font-size: 20px;
+  }
+  .play-again-button {
+  
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding-bottom: 0;
+}
 }

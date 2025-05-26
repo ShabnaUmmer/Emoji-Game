@@ -14,7 +14,7 @@ const NavBar = ({score, topScore, showScores}) => (
     {showScores && (
       <div className="nav-elements">
         <p className="score">Score: {score}</p>
-        <p className="score">Top Score: {topScore}</p>
+        <p className="score score-2">Top Score: {topScore}</p>
       </div>
     )}
   </nav>

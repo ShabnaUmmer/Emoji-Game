@@ -1,8 +1,15 @@
 /* Write your code here. */
 .emoji-card {
   background-color: #9796f0;
-  padding: 40px;
-  border-radius: 10px;
-  border: 1px solid #ffffff30;
-  cursor: pointer
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid #ffffff30;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .emoji-image {
+    height: 50px;
+    width: auto;
+    padding: 10px;
+  }
 }

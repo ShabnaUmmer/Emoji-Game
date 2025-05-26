@@ -1,11 +1,15 @@
 /* Write your code here. */
 .nav-container {
-  background-color: #9796f0;
+  background-color: rgba(151, 150, 240, 0.199);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px 40px;
 }
 .nav-elements,
 .nav-logo {
@@ -15,7 +19,95 @@
   align-items: center;
   gap: 20px;
   color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-.nav-elements{
+.nav-logo {
+  padding-left: 30px;
+}
+.nav-elements {
   font-size: 24px;
+}
+.score {
+  font-weight: bold;
+}
+.score-2 {
+  padding-right: 30px;
+}
+.nav-logo h1 {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .nav-elements {
+    gap: 40px; /* Reduce gap between scores */
+    font-size: 20px; /* Smaller font for mobile */
+    padding-right: 0; /* Adjust padding */
+  }
+  .nav-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 0;
+  }
+
+  .nav-logo h1 {
+    font-size: 30px; /* Smaller logo text */
+  }
+
+  .nav-container {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .score-2 {
+  padding-right: 0;
+}
+.emoji-logo {
+    width: 30px; /* Smaller logo image */
+  }
+}
+
+/* For extra small devices */
+@media (max-width: 576px) {
+  .nav-container {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-elements {
+  
+    gap: 40px; /* Reduce gap between scores */
+    font-size: 15px; /* Smaller font for mobile */
+    padding-right: 0; /* Adjust padding */
+  }
+  .nav-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 0;
+
+  }
+
+  .nav-logo h1 {
+    font-size: 20px;
+  }
+
+  .emoji-logo {
+    width: 30px; /* Smaller logo image */
+  }
+  .score-2 {
+  padding-right: 0;
+}
 }
