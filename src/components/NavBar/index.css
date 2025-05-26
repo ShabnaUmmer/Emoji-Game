@@ -38,9 +38,9 @@
 
 @media (max-width: 768px) {
   .nav-elements {
-    gap: 40px; 
-    font-size: 20px; 
-    padding-right: 0; 
+    gap: 40px;
+    font-size: 20px;
+    padding-right: 0;
   }
   .nav-logo {
     display: flex;
@@ -54,7 +54,7 @@
   }
 
   .nav-logo h1 {
-    font-size: 30px; 
+    font-size: 30px;
   }
 
   .nav-container {
@@ -68,7 +68,7 @@
     padding-right: 0;
   }
   .emoji-logo {
-    width: 30px; 
+    width: 30px;
   }
 }
 
@@ -81,9 +81,9 @@
     justify-content: center;
   }
   .nav-elements {
-    gap: 40px; 
-    font-size: 15px; 
-    padding-right: 0; 
+    gap: 40px;
+    font-size: 15px;
+    padding-right: 0;
   }
   .nav-logo {
     display: flex;
@@ -101,7 +101,7 @@
   }
 
   .emoji-logo {
-    width: 30px; 
+    width: 30px;
   }
   .score-2 {
     padding-right: 0;
