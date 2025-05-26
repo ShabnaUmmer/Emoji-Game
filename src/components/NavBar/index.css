@@ -1,4 +1,3 @@
-/* Write your code here. */
 .nav-container {
   background-color: rgba(151, 150, 240, 0.199);
   backdrop-filter: blur(30px);
@@ -39,9 +38,9 @@
 
 @media (max-width: 768px) {
   .nav-elements {
-    gap: 40px; /* Reduce gap between scores */
-    font-size: 20px; /* Smaller font for mobile */
-    padding-right: 0; /* Adjust padding */
+    gap: 40px; 
+    font-size: 20px; 
+    padding-right: 0; 
   }
   .nav-logo {
     display: flex;
@@ -55,7 +54,7 @@
   }
 
   .nav-logo h1 {
-    font-size: 30px; /* Smaller logo text */
+    font-size: 30px; 
   }
 
   .nav-container {
@@ -69,11 +68,10 @@
     padding-right: 0;
   }
   .emoji-logo {
-    width: 30px; /* Smaller logo image */
+    width: 30px; 
   }
 }
 
-/* For extra small devices */
 @media (max-width: 576px) {
   .nav-container {
     padding: 5px 10px;
@@ -83,9 +81,9 @@
     justify-content: center;
   }
   .nav-elements {
-    gap: 40px; /* Reduce gap between scores */
-    font-size: 15px; /* Smaller font for mobile */
-    padding-right: 0; /* Adjust padding */
+    gap: 40px; 
+    font-size: 15px; 
+    padding-right: 0; 
   }
   .nav-logo {
     display: flex;
@@ -103,7 +101,7 @@
   }
 
   .emoji-logo {
-    width: 30px; /* Smaller logo image */
+    width: 30px; 
   }
   .score-2 {
     padding-right: 0;
