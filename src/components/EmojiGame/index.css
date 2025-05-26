@@ -27,8 +27,6 @@
   width: 100%;
 }
 
-
-
 @media (max-width: 576px) {
   .emojis-container {
     grid-template-columns: repeat(3, 1fr); /* 2 columns for mobile */

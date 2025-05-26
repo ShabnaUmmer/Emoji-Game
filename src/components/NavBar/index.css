@@ -66,9 +66,9 @@
     justify-content: center;
   }
   .score-2 {
-  padding-right: 0;
-}
-.emoji-logo {
+    padding-right: 0;
+  }
+  .emoji-logo {
     width: 30px; /* Smaller logo image */
   }
 }
@@ -83,7 +83,6 @@
     justify-content: center;
   }
   .nav-elements {
-  
     gap: 40px; /* Reduce gap between scores */
     font-size: 15px; /* Smaller font for mobile */
     padding-right: 0; /* Adjust padding */
@@ -97,7 +96,6 @@
     color: #ffffff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding-left: 0;
-
   }
 
   .nav-logo h1 {
@@ -108,6 +106,6 @@
     width: 30px; /* Smaller logo image */
   }
   .score-2 {
-  padding-right: 0;
-}
+    padding-right: 0;
+  }
 }
