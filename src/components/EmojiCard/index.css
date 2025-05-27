@@ -1,9 +1,14 @@
 .emoji-card {
-  background-color: #9796f0;
+  background-color: #ffffff33;
   padding: 20px;
   border-radius: 20px;
   border: 3px solid #ffffff30;
   cursor: pointer;
+  aspect-ratio: 1 / 1;
+}
+.emoji-image {
+  height: 80px;
+  width: auto;
 }
 .emoji-image {
     height: 80px;

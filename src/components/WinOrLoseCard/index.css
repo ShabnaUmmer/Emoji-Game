@@ -5,16 +5,18 @@
   align-items: center;
   gap: 20px;
   color: #ffffff;
-  background-color: #9796f0;
+  background-color: #ffffff33;
   margin: 40px;
   padding: 20px 30px;
   border: 3px solid #ffffff30;
   border-radius: 20px;
+  font-family: 'Roboto';
 }
 .score-text {
   color: #6a59ff;
   font-size: 36px;
   font-weight: bold;
+  font-family: 'Roboto';
 }
 .play-again-button {
   background-color: #ffce27;
@@ -22,9 +24,11 @@
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 24px;
+  font-family: 'Roboto';
 }
 .result-text {
   font-size: 58px;
+  font-family: 'Roboto';
 }
 .best-score {
   font-size: 30px;
@@ -32,6 +36,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Roboto';
+  font-weight: 500;
 }
 .score-container {
   display: flex;
@@ -39,6 +45,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 0px;
+  font-family: 'Roboto';
 }
 
 @media (max-width: 768px) {
