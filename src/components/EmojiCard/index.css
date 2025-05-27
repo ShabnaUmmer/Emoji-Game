@@ -5,6 +5,9 @@
   border: 3px solid #ffffff30;
   cursor: pointer;
 }
+.emoji-image {
+    height: 80px;
+}
 @media (max-width: 576px) {
   .emoji-image {
     height: 50px;
